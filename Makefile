@@ -9,7 +9,7 @@ PKG_NAME:=luci-app-vnstat2
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 
 LUCI_TITLE:=LuCI Support for VnStat2
-LUCI_DEPENDS:=+vnstat2
+LUCI_DEPENDS:=+vnstat2 +vnstati2
 include $(TOPDIR)/feeds/luci/luci.mk
 
 
